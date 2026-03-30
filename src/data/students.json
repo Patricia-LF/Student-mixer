@@ -1,0 +1,170 @@
+{"students": [
+    {
+        "id": 1,
+        "firstname": "John",
+        "lastname": "Ahlenhed",
+        "isPresent": true,
+        "groupId": null
+    },
+    {
+        "id": 2,
+        "firstname": "Rickard",
+        "lastname": "Almgren",
+        "isPresent": true,
+        "groupId": null
+    },
+    {
+        "id": 3,
+        "firstname": "Benita",
+        "lastname": "Almroth",
+        "isPresent": true,
+        "groupId": null
+    },
+    {
+        "id": 4,
+        "firstname": "Robin",
+        "lastname": "Andersson",
+        "isPresent": true,
+        "groupId": null
+    },
+    {
+        "id": 5,
+        "firstname": "Emma",
+        "lastname": "Backman",
+        "isPresent": true,
+        "groupId": null
+    },
+    {
+        "id": 6,
+        "firstname": "Olof",
+        "lastname": "Björn",
+        "isPresent": true,
+        "groupId": null
+    },
+    {
+        "id": 7,
+        "firstname": "Alexandru-Gabriel",
+        "lastname": "Brindiliu",
+        "isPresent": true,
+        "groupId": null
+    },
+    {
+        "id": 8,
+        "firstname": "Anton",
+        "lastname": "Börnfelt",
+        "isPresent": true,
+        "groupId": null
+    },
+    {
+        "id": 9,
+        "firstname": "Tim",
+        "lastname": "Ebbegrim Alm",
+        "isPresent": true,
+        "groupId": null
+    },
+    {
+        "id": 10,
+        "firstname": "Amin",
+        "lastname": "El-Rifai",
+        "isPresent": true,
+        "groupId": null
+    },
+    {
+        "id": 11,
+        "firstname": "Patricia",
+        "lastname": "Frykberg Loayza",
+        "isPresent": true,
+        "groupId": null
+    },
+    {
+        "id": 12,
+        "firstname": "Marie",
+        "lastname": "Färnström",
+        "isPresent": true,
+        "groupId": null
+    },
+    {
+        "id": 13,
+        "firstname": "Elsa",
+        "lastname": "Girardo",
+        "isPresent": true,
+        "groupId": null
+    },
+    {
+        "id": 14,
+        "firstname": "Eddie",
+        "lastname": "Johansson",
+        "isPresent": true,
+        "groupId": null
+    },
+    {
+        "id": 15,
+        "firstname": "Hanna",
+        "lastname": "Johansson",
+        "isPresent": true,
+        "groupId": null
+    },
+    {
+        "id": 16,
+        "firstname": "Laura",
+        "lastname": "Kotlinska",
+        "isPresent": true,
+        "groupId": null
+    },
+    {
+        "id": 17,
+        "firstname": "Malin",
+        "lastname": "Persson",
+        "isPresent": true,
+        "groupId": null
+    },
+    {
+        "id": 18,
+        "firstname": "Wilma",
+        "lastname": "Reistad",
+        "isPresent": true,
+        "groupId": null
+    },
+    {
+        "id": 19,
+        "firstname": "Nathalie",
+        "lastname": "Rosenkvist",
+        "isPresent": true,
+        "groupId": null
+    },
+    {
+        "id": 20,
+        "firstname": "Daniella",
+        "lastname": "Saadon",
+        "isPresent": true,
+        "groupId": null
+    },
+    {
+        "id": 21,
+        "firstname": "Emelie",
+        "lastname": "Sengenbjerg",
+        "isPresent": true,
+        "groupId": null
+    },
+    {
+        "id": 22,
+        "firstname": "Maria",
+        "lastname": "Tedeman",
+        "isPresent": true,
+        "groupId": null
+    },
+    {
+        "id": 23,
+        "firstname": "Allan",
+        "lastname": "Tran",
+        "isPresent": true,
+        "groupId": null
+    },
+    {
+        "id": 24,
+        "firstname": "Olivia",
+        "lastname": "Töreland",
+        "isPresent": true,
+        "groupId": null
+    }
+]}

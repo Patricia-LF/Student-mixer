@@ -1,0 +1,89 @@
+#root {
+  min-width: 90vw;
+  min-height: 90vh;
+  margin: 0 auto;
+  padding:2rem;
+  text-align: center;
+  background-color: lightblue;
+  display: flex;
+  flex-direction: column;
+}
+
+/* 1) Section fills the viewport */
+.layout {
+  height: 90vh;              /* full window height */
+  width: 100vw;               /* full window width */
+  display: grid;
+
+  /* 2 columns: left 67%, right the rest */
+  grid-template-columns: 60% 40%;
+
+  /* 2 rows on the left: top takes remaining space, bottom is 25% */
+  grid-template-rows: 1fr 25%;
+
+  gap: 1rem;                  /* optional spacing */
+  box-sizing: border-box;
+  padding: 1rem;              /* optional */
+}
+
+.studentList, .notPresentList, .mixedList {
+  border-radius: 1rem;
+}
+
+
+/* 2) Place the areas */
+.studentList {
+  grid-column: 1;
+  grid-row: 1;                /* top-left */
+  background-color:rgb(48, 153, 213)
+}
+
+.studentList div {
+  display: flex;
+  flex-wrap: wrap;
+  align-content: flex-start;  /* wraps nicely from top */
+  gap: 0.75rem;               /* space between persons */
+  overflow: auto;             /* if lots of people */
+  margin: 1rem;
+}
+
+.notPresentList {
+  grid-column: 1;
+  grid-row: 2;                /* bottom-left */
+  overflow: auto;
+  background-color:darksalmon;
+}
+
+.mixedList {
+  grid-column: 2;
+  grid-row: 1 / span 2;       /* right side spans both rows */
+  overflow: auto;
+  background-color: rgb(169, 71, 255);
+}
+
+.person {
+  border: thin solid rgb(207, 112, 216);
+  background-color: rgb(254, 245, 198);
+  border-radius: .5rem;
+  color: darkslategray;
+  padding: 0.2rem;
+  flex: 1 1 23%;
+  max-width: 30%;
+  min-width: 15%;
+  font-size: .75rem;
+}
+
+.person p {
+  margin-bottom: 0;
+  text-align: left;
+  width: 100%;
+}
+
+.person span {
+  text-transform: uppercase;
+  color: rgb(124, 121, 121);
+}
+
+.person h2 {
+  margin: 0;
+} 
